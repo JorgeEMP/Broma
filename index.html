@@ -117,6 +117,17 @@
             font-size: 14px;
             text-align: left;
         }
+
+        /* ---> AGREGA ESTO JUSTO AQUÍ <--- */
+        @media (max-width: 600px) {
+            .featured-profile {
+                flex-direction: column; /* Pone la foto arriba y el texto abajo en celulares */
+                text-align: center;
+            }
+            .profile-text p {
+                text-align: center; /* Centra el texto en celulares para que se vea mejor */
+            }
+        }
         /* Sección de Edits */
         .edit-box {
             border-left: 4px solid #8b0000;
